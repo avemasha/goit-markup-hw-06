@@ -302,18 +302,32 @@
                 <ul class="form-list list">
                     <li>
                         <label for="name" class="name">Имя</label>
-                        <input type="text" name="name" placeholder="" autofocus>
+                        <div class="icon-container">
+                        <input type="text" name="name" id="name">
+                        <span class="modal-icon"><svg width="18" height="18"><use href="./images/symbol-defs6.svg#icon-person-modal"></use></svg></span>
+                        </div>
+
                     </li>
                     <li>
                         <label for="tel" class="tel">Телефон</label>
-                        <input type="tel" name="tel" id="tel">
+                        <div class="icon-container">
+                        <input type="tel" name="tel" id="tel" class="icon-input">
+                        <span class="modal-icon" ><svg width="18" height="18" >
+                                <use href="./images/symbol-defs6.svg#icon-phone-modal"></use>
+                            </svg></span>
+                        </div>
                     </li>
                     <li>
                         <label for="mail" class="mail">Почта</label>
+                        <div class="icon-container">
                          <input type="email" name="mail" id="mail">
+                        <span class="modal-icon"><svg width="18" height="18" >
+                                <use href="./images/symbol-defs6.svg#icon-envelope-modal"></use>
+                            </svg></span>
+                        </div>
                     </li>
                     <li>
-                        <label for="textarea">Комментарий</label>
+                        <label for="comment">Комментарий</label>
                          <textarea name="comment" id="comment"  rows="10"></textarea>
                     </li>
                     </ul>
